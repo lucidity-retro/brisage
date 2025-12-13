@@ -1,0 +1,192 @@
+body {
+    font-family: 'Poppins';
+}
+
+#page {
+    display: grid;
+    grid-template-columns: minmax(400px, 1fr) minmax(320px, 40%) minmax(400px, 1fr);
+    gap: 40px;
+    max-width: 2000px;
+    width: 80%;
+    margin: 40px auto;
+
+    justify-content: center;   /* ⬅️ centre la grille */
+    align-items: stretch;
+}
+
+/* Image centrale : l’item */
+#item-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#item-image {
+    width: 80%;
+    display: block;                   /* s’assure que c’est un bloc pour centrer */             /* centre horizontalement */
+    border-radius: 14px;            /* arrondir les coins */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    height: auto; /* ombre douce */                  /* responsive : prend 100% si écran petit */            /* garde les proportions */
+}
+
+
+#item-name {
+    background-color: #e6c25f;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    width: 80%;
+    padding: 40px 20px;             /* espace autour du texte */         /* couleur du cadre (tu peux changer) */
+    border-radius: 12px;            /* coins arrondis */
+    text-align: center;             /* centrer le texte à l’intérieur */
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    margin-top: 0px;         /* espace entre le titre et l’image */
+    font-size: 2.2rem;              /* taille adaptée */                     /* couleur du texte */
+}
+
+/* Cadres ressources + runes */
+.cadre {
+    background: #9eaef3;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    height: 100%;
+}
+
+.transparent {
+    background-color: transparent;
+    border: none;
+    box-shadow: 0 0px 0px rgba(0,0,0,0);
+    padding: 0px;
+}
+
+/* Ligne ressource ou rune */
+.ligne-ressource, .ligne-rune {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* espace entre le label et l'input */
+    gap: 12px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.ligne-ressource label,
+.ligne-rune label {
+    display: flex;       /* pour que le texte et l’eventuelle image soient alignés */
+    align-items: center; /* centre verticalement le texte avec l’image */
+    gap: 6px;            /* espace entre image et texte si tu mets une icône plus tard */
+}
+
+/* Petite icône */
+.icone-ressource {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+}
+
+/* Input */
+input {
+    width: 120px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid #555;
+    background-color: black;
+    color: #ffffff;
+}
+
+.titre-2 {
+    background-color: #f068688f;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#result-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centre horizontalement */
+    justify-content: flex-start;
+    width: 100%;           /* s’étend sur toute la largeur disponible */
+    margin-top: 20px;
+}
+
+#btnCalc {
+    font-family: 'Poppins';
+    display: inline-block;        /* permet le centrage précis */
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #222;
+    background-color: #72967d;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+}
+
+/* Hover : léger agrandissement et décalage vers le bas */
+#btnCalc:hover {
+    transform: translateY(2px) scale(1.05);
+    background-color: #0e7001;
+}
+
+#result {
+    display: flex;
+    justify-content: center;   /* centre horizontalement */
+    gap: 16px;                 /* espace entre les boxes */
+    margin-top: 20px;
+    flex-wrap: wrap;           /* responsive : passe à la ligne si trop petit */
+}
+
+.result-box {
+    background-color: rgba(182, 171, 171, 0.9);  /* fond sombre */
+    padding: 12px 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    min-width: 150px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+.result-box b {
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+#back-home {
+    text-align: center;       /* centre le contenu du conteneur */
+    margin-top: 30px;
+}
+
+#btnHome {
+    font-family: 'Poppins';
+    display: inline-block;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-decoration: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+#btnHome:hover {
+    background-color: #444343;
+    transform: translateY(2px) scale(1.05);
+}
