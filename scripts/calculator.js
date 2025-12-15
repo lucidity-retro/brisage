@@ -84,7 +84,7 @@ const ITEMS = {
             {nom: "Rune Pi Per", taux: 6.8}
         ]
     },
-    "amuterrda": {
+    "terrdala": {
         nom: "Amulette Terrdala",
         ressources: [
             {nom: "Bois de Bambou Sombre", qte: 10},
@@ -101,6 +101,156 @@ const ITEMS = {
             {nom: "Rune Pa Sa", taux: 1.5},
             {nom: "Rune Ré Per Eau", taux: 3},
             {nom: "Rune Ré Per Air", taux: 3}
+        ]
+    },
+    "elyawood": {
+        nom: "Talisman d'Elya Wood",
+        ressources: [
+            {nom: "Pierre de Topaze", qte: 70},
+            {nom: "Pierre de Diamant", qte: 10},
+            {nom: "Pierre de Saphir", qte: 10},
+            {nom: "Poudre d'Eniripsa", qte: 10},
+            {nom: "Agathe", qte: 5},
+            {nom: "Etoffe de Maho Firefoux", qte: 2},
+            {nom: "Emeraude", qte: 1},
+            {nom: "Poils de Moon", qte: 1}
+        ],
+        runes: [
+            {nom: "Rune Ga Pa", taux: 0.667},
+            {nom: "Rune Ra vi", taux: 0.99},
+            {nom: "Rune Pa vi", taux: 2.8},
+            {nom: "Rune Ra Ine", taux: 0.047},
+            {nom: "Rune Pa Ine", taux: 2.1},
+            {nom: "Rune Ra Sa", taux: 0.94},
+            {nom: "Rune Pa Sa", taux: 2.8},
+            {nom: "Rune So", taux: 5.3},
+            {nom: "Rune Ré per Air", taux: 3.95},
+            {nom: "Rune Ré per Eau", taux: 3.95}
+        ]
+    },
+    "printemps": {
+        nom: "La Feuille de printemps",
+        ressources: [
+            {nom: "Cristal ", qte: 6},
+            {nom: "Magnésite", qte: 4},
+            {nom: "Kriptonite", qte: 3},
+            {nom: "Kouartz", qte: 3},
+            {nom: "Kobalite", qte: 2},
+            {nom: "Méga Pierre du Craqueleur", qte: 1},
+            {nom: "Bois de Charme", qte: 10},
+            {nom: "Bois d'Orme", qte: 10},
+            {nom: "Bois d'Ebène", qte: 10},
+            {nom: "Bois de Merisier", qte: 10},
+            {nom: "Saphir", qte: 2},
+            {nom: "Bois Ancestral", qte: 1}
+        ],
+        runes: [
+            {nom: "Rune Ga Pa", taux: 0.667},
+            {nom: "Rune Po", taux: 1},
+            {nom: "Rune Pa vi", taux: 1.75},
+            {nom: "Rune Ra Age", taux: 0.97},
+            {nom: "Rune Pa Age", taux: 2.9},
+            {nom: "Rune Ra Cha", taux: 0.97},
+            {nom: "Rune Pa Cha", taux: 2.9},
+            {nom: "Rune Do", taux: 5.3},
+            {nom: "Rune Pa Prospe", taux: 1.1},
+            {nom: "Rune Prospe", taux: 5.2},
+            {nom: "Rune Ré per Feu", taux: 2.6},
+            {nom: "Rune Ré per Eau", taux: 2.6}
+        ]
+    },
+    "dragoncochon": {
+        nom: "Collier du Dragon Cochon",
+        ressources: [
+            {nom: "Ivoire", qte: 30},
+            {nom: "Peau de Cochon de Farle", qte: 25},
+            {nom: "Peau de Bworkette", qte: 15},
+            {nom: "Slip en Cuir de Cochon de Lait", qte: 12},
+            {nom: "Cuir Noir", qte: 8},
+            {nom: "Cuir de Déminoboule", qte: 5},
+            {nom: "Poil de Dragon Cochon", qte: 1}
+        ],
+        runes: [
+            {nom: "Rune Ga Pa", taux: 0.474},
+            {nom: "Rune Pa vi", taux: 1.1},
+            {nom: "Rune Ra Age", taux: 0.36},
+            {nom: "Rune Pa Age", taux: 2.5},
+            {nom: "Rune Pa Sa", taux: 2.3},
+            {nom: "Rune Crit", taux: 1.66},
+            {nom: "Rune Pa Do Per", taux: 1.96},
+            {nom: "Rune Do Per", taux: 6},
+            {nom: "Rune So", taux: 2.67},
+            {nom: "Rune Do", taux: 2.67},
+            {nom: "Rune Ré per Terre", taux: 3.33},
+            {nom: "Rune Ré per Air", taux: 3.33}
+        ]
+    },
+    "bloproyal": {
+        nom: "Amublop Royale",
+        ressources: [
+            {nom: "Pollen de Blop", qte: 150},
+            {nom: "Bout de Blop", qte: 150},
+            {nom: "Fleur de Blopignon", qte: 10},
+            {nom: "Racine de Tronkoblop", qte: 10},
+            {nom: "Feuille de Blop Royal", qte: 6},
+            {nom: "Fleur de Blop", qte: 10},
+            {nom: "Fleur de Blop Royal", qte: 1},
+            {nom: "Fleur de Gloutoblop", qte: 1},
+            {nom: "Etain", qte: 7},
+            {nom: "Bronze", qte: 2},
+            {nom: "Cuivre", qte: 4},
+            {nom: "Manganèse", qte: 2},
+            {nom: "Bois de Chêne", qte: 2},
+            {nom: "Bois d'Erable", qte: 1}
+        ],
+        runes: [
+            {nom: "Rune Ga Pa", taux: 0.303},
+            {nom: "Rune Pa vi", taux: 0.42},
+            {nom: "Rune Ra Stat", taux: 0.065},
+            {nom: "Rune Pa Stat", taux: 2.45},
+            {nom: "Rune So", taux: 2.65},
+            {nom: "Rune Do", taux: 2.65},
+            {nom: "Rune Invo", taux: 0.66}
+        ]
+    },
+    "flanetoiles": {
+        nom: "Flan des Etoiles",
+        ressources: [
+            {nom: "Gelée à la Menthe", qte: 20},
+            {nom: "Oeuf de Tofu", qte: 20},
+            {nom: "Gelée Bleutée", qte: 15},
+            {nom: "Gelée Bleutée Royale", qte: 5},
+            {nom: "Saphir", qte: 2},
+            {nom: "Emeraude", qte: 2}
+        ],
+        runes: [
+            {nom: "Rune Ga Pa", taux: 0.182},
+            {nom: "Rune Pa vi", taux: 1.5},
+            {nom: "Rune Pa Ine", taux: 2.28},
+            {nom: "Rune Pa Sa", taux: 2.28}
+        ]
+    },
+    "kikoularc": {
+        nom: "Le Kikoularc",
+        ressources: [
+            {nom: "Poudre de Perlinpainpain", qte: 80},
+            {nom: "Fragment de cerveau poli", qte: 15},
+            {nom: "Maillot de corps de Barbroussa", qte: 12},
+            {nom: "Peau de Mob l'Eponge", qte: 4},
+            {nom: "Coeur de pierre poli", qte: 3},
+            {nom: "Etoffe de Gourlo le Terrible", qte: 1},
+            {nom: "Racine d'Abraknyde", qte: 10},
+            {nom: "Ambre d'Abraknyde", qte: 2},
+            {nom: "Ficelle en Lin", qte: 1},
+            {nom: "Bois d'If", qte: 1}
+        ],
+        runes: [
+            {nom: "Rune Ga Pa", taux: 0.296},
+            {nom: "Rune Ra Ine", taux: 0.36},
+            {nom: "Rune Pa Ine", taux: 2.5},
+            {nom: "Rune Ra Cha", taux: 0.36},
+            {nom: "Rune Pa Cha", taux: 2.5},
+            {nom: "Rune Do", taux: 0.29}
         ]
     }
 };
